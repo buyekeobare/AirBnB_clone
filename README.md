@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AirBnB clone - The console Project
 
 <p align="center">
@@ -106,3 +107,5 @@ To personalize the classes and execute unit tests to confirm that your changes h
 ```
 python3 -m unittest discover tests
 ```
+=======
+>>>>>>> 1559bf7dafe0bd641996674297fa19cb44534391

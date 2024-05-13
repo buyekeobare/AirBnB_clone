@@ -23,7 +23,9 @@
 
 <!-- About the Project -->
 
-## Project Description
+## About the Project
+
+### Project Description
 
 An AirBnB clone is a copy of the AirBnB website, where you can find and rent accommodations. 
 
@@ -31,7 +33,7 @@ To recreate its functionalities, we're developing a system that mimics AirBnB's 
 
 The project currently only implements the back-end console.
 
-## Console Design
+### Console Design
 
 <p align="center">
   <img src="https://github.com/buyekeobare/AirBnB_clone/blob/main/images/console_airbnb.png" alt="Console">
@@ -50,7 +52,9 @@ The project currently only implements the back-end console.
 
 <!-- Features and Functionalities -->
 
-## Classes
+## Features and Functionalities
+
+### Classes
 
   - BaseModel -> id, created_at, updated_at
   - FileStorage -> Inherits from BaseModel
@@ -60,13 +64,13 @@ The project currently only implements the back-end console.
   - Amenity -> Inherits from BaseModel
   - Place -> Inherits from BaseModel
 
-## Storage
+### Storage
 
 The classes mentioned above are managed by the abstracted storage engine, which is defined within the FileStorage class.
 
 Whenever the backend of our AirBnB is initialized, it creates an instance of FileStorage named storage. This storage object is responsible for loading or reloading data from any class instances stored in the JSON file named file.json. As new class instances are created, existing ones are updated, or some are deleted, the storage object ensures that these changes are accurately reflected in the file.json.
 
-## Console
+### Console
 
 The console serves as a command-line interpreter specifically designed for managing the backend operations of our AirBnB. It allows users to handle and manipulate all classes utilized by theapplication through calls on the storage object defined within the system.
 

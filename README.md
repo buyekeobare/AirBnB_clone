@@ -63,13 +63,13 @@ The project currently only implements the back-end console.
 
 ## Storage
 
-The above classes are handled by the abstracted storage engine defined in the FileStorage class.
+The classes mentioned above are managed by the abstracted storage engine, which is defined within the FileStorage class.
 
-Every time the backend is initialized, HolbertonBnB instantiates an instance of FileStorage called storage. The storage object is loaded/re-loaded from any class instances stored in the JSON file file.json. As class instances are created, updated, or deleted, the storage object is used to register corresponding changes in the file.json.
+Whenever the backend of our AirBnB is initialized, it creates an instance of FileStorage named storage. This storage object is responsible for loading or reloading data from any class instances stored in the JSON file named file.json. As new class instances are created, existing ones are updated, or some are deleted, the storage object ensures that these changes are accurately reflected in the file.json.
 
 ## Console
 
-The console is a command line interpreter that permits management of the backend of HolbertonBnB. It can be used to handle and manipulate all classes utilized by the application (achieved by calls on the storage object defined above).
+The console serves as a command-line interpreter specifically designed for managing the backend operations of our AirBnB. It allows users to handle and manipulate all classes utilized by theapplication through calls on the storage object defined within the system.
 
 <!-- Installation -->
 
@@ -107,5 +107,3 @@ To personalize the classes and execute unit tests to confirm that your changes h
 ```
 python3 -m unittest discover tests
 ```
-=======
->>>>>>> 1559bf7dafe0bd641996674297fa19cb44534391

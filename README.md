@@ -11,14 +11,15 @@
 - [📖 About the Project](#about-project)
   - [Project Description](#overview)
   - [Console Design](#design)
-- [💻 Prerequisites](#prerequisites)
 - [🚀 Feautures and functionalities](#features)
   - [Classes](#classes)
   - [Storage](#storage)
   - [Console](#console)
-- [🛠 Installation](#installation)
-- [🛠 Run](#run)
-- [🛠 Test](#test)
+- [💻 How to start it](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Run](#run)
+  - [Test](#test)
 
 
 <!-- About the Project -->
@@ -38,17 +39,6 @@ The project currently only implements the back-end console.
 <p align="center">
   <img src="https://github.com/buyekeobare/AirBnB_clone/blob/main/images/console_airbnb.png" alt="Console">
 </p>
-
-<!-- Prerequisities -->
-
-## Prerequisites
-
-- Python 3.x
-- Additional dependencies:
-	* import os
-	* import json
-	* import re
-	* import unittest
 
 <!-- Features and Functionalities -->
 
@@ -74,9 +64,21 @@ Whenever the backend of our AirBnB is initialized, it creates an instance of Fil
 
 The console serves as a command-line interpreter specifically designed for managing the backend operations of our AirBnB. It allows users to handle and manipulate all classes utilized by theapplication through calls on the storage object defined within the system.
 
-<!-- Installation -->
+<!-- How to start it -->
 
-## Installation
+## How to start it
+
+### Prerequisites
+
+- Python 3.x
+- Additional dependencies:
+        * import os
+        * import json
+        * import re
+        * import unittest
+
+
+### Installation
 
 Clone the repository:
 
@@ -84,9 +86,7 @@ Clone the repository:
   git clone https://github.com/buyekeobare/AirBnB_clone.git
   ```
 
-<!-- Run -->
-
-## Run
+### Run
 
 You first chnage directory to the AirBnb using this command: cd AirBnB; then
 
@@ -101,9 +101,7 @@ or
 ./console.py
 ```
 
-<!-- Test -->
-
-## Test 
+### Test 
 
 To personalize the classes and execute unit tests to confirm that your changes haven't modify the functionality use:
 

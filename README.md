@@ -72,11 +72,12 @@ The console serves as a command-line interpreter specifically designed for manag
 
 - Python 3.x
 - Additional dependencies:
-        * import os
-        * import json
-        * import re
-        * import unittest
-
+        ```
+	import os
+        import json
+        import re
+        import unittest
+	```
 
 ### Installation
 

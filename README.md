@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AirBnB clone - The console Project
 
 <p align="center">
@@ -43,11 +42,11 @@ The project currently only implements the back-end console.
 ## Prerequisites
 
 - Python 3.x
-- Additional dependencies
-  import os
-	import json
-	import re
-	import unittest
+- Additional dependencies:
+	* import os
+	* import json
+	* import re
+	* import unittest
 
 <!-- Features and Functionalities -->
 

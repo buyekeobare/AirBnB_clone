@@ -23,7 +23,7 @@
 
 <!-- About the Project -->
 
-## Project Overview
+## Project Description
 
 An AirBnB clone is a copy of the AirBnB website, where you can find and rent accommodations. 
 

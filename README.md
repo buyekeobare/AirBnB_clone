@@ -1,4 +1,4 @@
-# AirBnB clone - The console Project
+# AirBnB clone - The console Project.
 
 <p align="center">
   <img src="https://github.com/buyekeobare/AirBnB_clone/blob/main/images/hbnb_logo.png" alt="logo">

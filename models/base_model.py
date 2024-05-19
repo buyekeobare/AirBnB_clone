@@ -7,7 +7,6 @@ Date and time module help us work with time.
 
 from uuid import uuid4
 from datetime import datetime
-from models import storage
 
 
 class BaseModel:

@@ -8,6 +8,7 @@ application.
 
 """
 
+import os
 from json import dump, load
 
 class FileStorage():
@@ -67,6 +68,9 @@ class FileStorage():
                 'Review': Review,
                 'State': State,
                 'User': User}
+
+        if not os.path.exists(FileStorage.__file_path):
+            return
 
         try:
             with open(FileStorage.__file_path, "r") as fjason:

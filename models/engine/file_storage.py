@@ -8,7 +8,9 @@ application.
 
 """
 
+import os
 from json import dump, load
+
 
 class FileStorage():
     """
@@ -49,9 +51,9 @@ class FileStorage():
     def reload(self):
         """
         deserializes the JSON file to __objects (if the JSON fil exists
-        otherwise do nothing, and rasie no exception.
+        otherwise do nothing, and raise no exception.
         """
-        
+
         from models.base_model import BaseModel
         from models.user import User
         from models.amenity import Amenity
@@ -61,16 +63,24 @@ class FileStorage():
         from models.state import State
 
         classes_dict = {'BaseModel': BaseModel,
-                'Amenity': Amenity,
-                'City': City,
-                'Place': Place,
-                'Review': Review,
-                'State': State,
-                'User': User}
+                        'Amenity': Amenity,
+                        'City': City,
+                        'Place': Place,
+                        'Review': Review,
+                        'State': State,
+                        'User': User}
+
+        if not os.path.exists(FileStorage.__file_path):
+            return
 
         try:
+            loaded_dict = None
+
             with open(FileStorage.__file_path, "r") as fjason:
                 loaded_dict = load(fjason)
+
+            if loaded_dict == None:
+                return
 
             for value in loaded_dict.values():
 
